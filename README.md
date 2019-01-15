@@ -14,11 +14,11 @@
 
 下图为支配原型训练的acc,loss和lr信息：
 
-![acc](pic/acc.jpg)
+<figure class="third">
 
-​       ![loss](pic/loss.jpg)
+<img src='pic/acc.jpg'><img src='pic/loss.jpg'><img src='pic/lr.jpg'>
 
-​       ![lr](pic/lr.jpg)
+</figure>
 
 ​        以下是测试过程，目录如下：
 

@@ -14,11 +14,7 @@
 
 下图为支配原型训练的acc,loss和lr信息：
 
-<figure class="third">
-
-<img src='pic/acc.jpg'><img src='pic/loss.jpg'><img src='pic/lr.jpg'>
-
-</figure>
+<img src='pic/acc.jpg' width="260"><img src='pic/loss.jpg' width="260"><img src='pic/lr.jpg' width="260">
 
 ​        以下是测试过程，目录如下：
 

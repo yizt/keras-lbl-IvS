@@ -61,8 +61,8 @@ def update_queue(dominant_queue, candidate_queue, predict, current_labels):
     更新支配队列
     :param dominant_queue: 支配队列
     :param candidate_queue: 候选队列
-    :param predict: 预测的类别，numpy数组 (Batch,Batch)
-    :param current_labels: 实际的当前类别
+    :param predict: 预测的类别，numpy数组 (Batch,train_num_class)
+    :param current_labels: 实际的当前类别(Batch,)
     :return:
     """
     predict_label = np.argmax(predict, axis=-1)
